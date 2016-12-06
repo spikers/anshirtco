@@ -1,0 +1,91 @@
+#page-wrapper {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  /*text-align: center;*/
+}
+
+img {
+  width: 100%;
+}
+
+.parallax {
+  height: 300px;
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.food {
+  background-image: url(images/food.jpeg);
+}
+
+.yoga {
+  background-image: url(images/yoga.jpeg);
+}
+
+.balloons {
+  background-image: url(images/balloons.jpeg);
+}
+
+h1, h2, h3, h4, li {
+  font-family: 'Raleway', sans-serif;
+  line-height: 0em;
+}
+
+#body-content {
+  text-align: center;
+}
+
+p {
+  font-family: 'open sans condensed', sans-serif;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  height: 200px;
+}
+
+nav {
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0px auto 10px auto;
+  padding: 0px;
+  display: block;
+}
+
+li {
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+li:hover {
+  color: gray;
+  /*text-decoration: underline;*/
+}
+
+a {
+  color: black;
+}
+
+/*
+li, ul, #page-wrapper {
+  border: 4px solid black;
+}
+*/
